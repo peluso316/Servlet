@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="resultado_formulario.jsp" method="post">
+<h1>Formulario WEB básico</h1>
+<table>
+<tr>
+<td>Nombre:</td>
+<td><input type="text" name="nombre"></td>
+</tr>
+<tr>
+<td>Dirección e-mail:</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td>Ciudad:</td>
+<td><select name="ciudad" >
+<option value="madrid">Madrid</option>
+<option value="coslada">Coslada</option>
+<option value="mostoles">Móstoles</option>
+</select></td>
+</tr>
+<tr>
+<td>Aficiones:</td>
+<td><input type="checkbox" name="aficiones" value="deportes" >Deportes<br/>
+<input type="checkbox" name="aficiones" value="coches">Coches<br/>
+<input type="checkbox" name="aficiones" value="musica">Música<br/></td>
+</tr>
+<tr>
+<td>Género:</td>
+<td><input type="radio" name="genero" value="mujer" checked/> Mujer
+<input type="radio" name="genero" value="hombre"/> Hombre</td>
+</tr>
+<tr>
+<td><input type="submit" value="Enviar información"/></td>
+<td><input type="reset" value="Limpiar datos"/></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
